@@ -2,7 +2,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: #cfe7d1; /* helles, freundliches Grün */
+  background: #cfe7d1; /* helles Design */
   color: #333;
 }
 
@@ -39,13 +39,13 @@ body {
 
 .navbar ul li a {
   text-decoration: none;
-  color: #158d1b;       /* sattes Grün */
-  font-size: 1.6rem;    /* größere Schrift */
+  color: #158d1b;
+  font-size: 1.6rem;
   transition: color 0.3s;
 }
 
 .navbar ul li a:hover {
-  color: #2a7ae2;       /* Blau als Hover-Akzent */
+  color: #2a7ae2;
 }
 
 /* Flex-Container für Text und Bild */
@@ -67,7 +67,7 @@ body {
 .text-section h1 {
   font-size: 1.8rem;
   margin-bottom: 20px;
-  color: #158d1b;       /* grüner Titel */
+  color: #158d1b;
 }
 
 .text-section p {
@@ -90,36 +90,6 @@ body {
   box-shadow: 0 0 25px rgba(42, 122, 226, 0.3);
 }
 
-/* Button-Stil */
-.btn {
-  display: inline-block;
-  margin: 20px 0;
-  padding: 12px 24px;
-  background: #158d1b;   /* grüner Button */
-  color: #fff;
-  font-size: 1.1rem;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.3s, transform 0.2s;
-}
-
-.btn:hover {
-  background: #1db82a;   /* helleres Grün beim Hover */
-  transform: scale(1.05);
-}
-
-/* Listen für Kursseite */
-.text-section ul {
-  list-style: none;
-  padding: 0;
-}
-
-.text-section ul li {
-  margin: 10px 0;
-  font-size: 1.1rem;
-}
-
 /* Responsive Anpassungen */
 @media (max-width: 768px) {
   .navbar {
@@ -140,4 +110,22 @@ body {
     width: 250px;
     height: 250px;
   }
+}
+/* Button-Stil */
+.btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 12px 24px;
+  background: #158d1b;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.btn:hover {
+  background: #1db82a;
+  transform: scale(1.05);
 }
